@@ -40,11 +40,30 @@ nav {
     height: 17vh;
 }
 
+nav {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b, #db3b14 ,#4a4d50);
+    background-size: 200% 200%; 
+    animation: gradientAnimation 10s ease infinite;  
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 .nav-links {
     gap: 2rem; /* Gap between links */
     list-style: none; /* Remove bullet points */
     font-size: 1.5rem;
 }
+
+
 
 a {
     color: black;
