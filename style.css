@@ -8,6 +8,15 @@
     box-sizing: border-box;
 }
 
+html, body {
+    background: linear-gradient(90deg, #cbbbb7,white,#cbbbb7);
+    background-size: 300% 300%; 
+    animation: gradientAnimation 10s ease infinite;  
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -40,13 +49,13 @@ nav {
     height: 17vh;
 }
 
-nav {
+nav {   /* Grandient nav background */
     background: linear-gradient(90deg, #ff7e5f, #feb47b, #db3b14 ,#4a4d50);
     background-size: 200% 200%; 
     animation: gradientAnimation 10s ease infinite;  
 }
 
-@keyframes gradientAnimation {
+@keyframes gradientAnimation { /* Grandient nav background */
     0% {
         background-position: 0% 50%;
     }
@@ -320,6 +329,13 @@ section {
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
+
+.details-container {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b, #db3b14 ,#4a4d50);
+    background-size: 200% 200%; 
+    animation: gradientAnimation 10s ease infinite; 
+}
+
 
 .section-container {
     gap: 4rem;
