@@ -9,7 +9,7 @@
 }
 
 html, body { /*background color*/
-    background: linear-gradient(90deg, #cbbbb7,white,#cbbbb7);
+    background: linear-gradient(90deg, #FFD3A3,white,#F6F4EB,#b0d0ef);
     background-size: 300% 300%; 
     animation: gradientAnimation 10s ease infinite;  
     margin-left: 0%;
@@ -49,13 +49,13 @@ nav {
     height: 17vh;
 }
 
-nav {   /* Grandient nav background */
+nav {   /* Gradient nav background */
     background: linear-gradient(90deg, #ff7e5f, #feb47b, #db3b14 ,#4a4d50);
     background-size: 200% 200%; 
     animation: gradientAnimation 10s ease infinite;  
 }
 
-@keyframes gradientAnimation { /* Grandient nav background */
+@keyframes gradientAnimation { /* Gradient nav background */
     0% {
         background-position: 0% 50%;
     }
