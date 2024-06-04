@@ -66,6 +66,7 @@ nav {   /* Grandient nav background */
         background-position: 0% 50%;
     }
 }
+
 .nav-links {
     gap: 2rem; /* Gap between links */
     list-style: none; /* Remove bullet points */

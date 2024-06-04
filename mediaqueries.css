@@ -9,6 +9,22 @@
     }
 }
 
+
+
+@media screen and (max-height: 1280px) {
+
+    #contact {
+        height: 160vh;
+    }
+}
+@media screen and (max-width: 1280px) {
+
+    #contact {
+        height: 100vh;
+    }
+}
+
+
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;                       /* When screen is lower than 1200px desktop navigation disappears */
@@ -197,7 +213,6 @@
     }
     #contact {
         height: fit-content;
-       
     }
     #footer {
         height: fit-content;
