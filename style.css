@@ -12,8 +12,8 @@ html, body { /*background color*/
     background: linear-gradient(90deg, #FFD3A3,white,#F6F4EB,#b0d0ef);
     background-size: 300% 300%; 
     animation: gradientAnimation 10s ease infinite;  
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
@@ -60,7 +60,7 @@ nav {   /* Gradient nav background */
         background-position: 0% 50%;
     }
     50% {
-        background-position: 100% 50%;
+        background-position: 90% 50%;
     }
     100% {
         background-position: 0% 50%;
